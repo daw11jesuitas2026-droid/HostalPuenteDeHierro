@@ -30,24 +30,53 @@
 
   <main class="container">
     <div class="row justify-content-center">
-      <div class="col-12 col-md-8 col-lg-5">
-        <h1 class="page-title">Resumen de tu reserva</h1>
+      <div class="col-12 col-lg-9 col-xl-8">
 
-        <div class="summary-card">
-          <div class="rating">★ 4.60</div>
-          <h3>Habitación Deluxe cama extragrande</h3>
-          <div class="room-meta mb-0">2 huéspedes · 1 dormitorio · 1 baño</div>
+        <div class="text-center pt-4">
+          <div class="check-circle">✓</div>
+          <h1 class="page-title mt-0 mb-2">¡Reserva confirmada!</h1>
+          <p class="text-secondary mb-4">Te hemos enviado los detalles de tu reserva a tu correo electrónico.</p>
         </div>
 
-        <div class="total-row">
-          <span>Total</span>
-          <strong>130 €</strong>
+        <div class="card room-card mb-4">
+          <div class="row g-0">
+            <div class="col-md-5">
+              <img src="img/hab-deluxe.jpg" class="img-fluid w-100 h-100 foto-confirmada" alt="Habitación Deluxe cama extragrande">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <div class="rating">★ 4.60</div>
+                <h3 class="room-title">Habitación Deluxe cama extragrande</h3>
+                <p class="room-meta">2 huéspedes · 1 dormitorio · 1 baño</p>
+                <div class="row g-3">
+                  <div class="col-6 dato"><small>Llegada</small><strong>27/11/2026</strong></div>
+                  <div class="col-6 dato"><small>Salida</small><strong>29/11/2026</strong></div>
+                  <div class="col-6 dato"><small>Noches</small><strong>2</strong></div>
+                  <div class="col-6 dato"><small>Huéspedes</small><strong>2</strong></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <a href="index.html" class="btn btn-brand w-100">Reserva Confirmada</a>
+        <!-- Precio -->
+        <div class="linea-precio"><span>65 € × 2 noches</span><span>130 €</span></div>
+        <div class="total-row mt-2"><span>Total</span><strong>130 €</strong></div>
+
+        <a href="index.html" class="btn btn-brand w-100 mb-4">Volver al inicio</a>
+
       </div>
     </div>
   </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="d-md-flex justify-content-md-between align-items-md-center">
+        <h4 class="mb-md-0">Hostal Puente de Hierro</h4>
+        <p class="mb-md-0">C. Carnicerías, 26001 Logroño, La Rioja, España</p>
+        <p class="mb-0"><a class="gold" href="mailto:info@hostalpuentedehierro.com">info@hostalpuentedehierro.com</a></p>
+      </div>
+    </div>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>

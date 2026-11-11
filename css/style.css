@@ -117,7 +117,7 @@ h1, h2, h3, h4 {
 
 
 .hero {
-  background-color: var(--verde-oscuro);
+  background: linear-gradient(rgba(31, 61, 54, 0.68), rgba(31, 61, 54, 0.68)), url('../img/portada.jpg') 85% 66% / auto 165% no-repeat;
   color: #fff;
   padding: 1.5rem 0;
 }
@@ -126,6 +126,7 @@ h1, h2, h3, h4 {
   font-size: 2.25rem;
   line-height: 1.1;
   margin-bottom: 0.9rem;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
 }
 .lead-gold {
   color: var(--dorado);
@@ -221,6 +222,22 @@ h1, h2, h3, h4 {
 .total-row span { color: var(--gris); }
 .total-row strong { font-size: 1.5rem; font-weight: 700; }
 
+.check-circle {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background-color: var(--verde);
+  color: #fff;
+  font-size: 2.25rem;
+  line-height: 72px;
+  text-align: center;
+  margin: 0 auto 1rem;
+}
+.foto-confirmada { object-fit: cover; aspect-ratio: 16 / 9; }
+.dato small { display: block; font-size: 0.75rem; color: var(--gris); }
+.dato strong { font-weight: 600; }
+.linea-precio { display: flex; justify-content: space-between; color: var(--gris); margin-bottom: 0.4rem; }
+
 .about-img {
   width: 100%;
   border-radius: 16px;
@@ -255,14 +272,15 @@ h1, h2, h3, h4 {
   .nav-cta { margin: 0 0 0 0.75rem; }
   .nav-cta .btn { padding: 0.55rem 1.25rem; }
 
-  .hero { padding: 3rem 0; }
+  .hero { padding: 4rem 0; background-size: cover; background-position: 70% 66%; }
   .hero h1 { font-size: 3rem; max-width: 560px; }
   .section-title,
   .page-title { font-size: 2rem; }
 }
 
 @media (min-width: 992px) {
-  .hero { padding: 4rem 0; }
+  html { font-size: 112.5%; }
+  .hero { padding: 6rem 0; }
   .hero h1 { font-size: 3.5rem; max-width: none; }
   .search-box { padding: 1.25rem; }
   .detail-img { border-radius: 16px; aspect-ratio: 4 / 3; }
