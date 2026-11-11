@@ -1,4 +1,0 @@
-Enlace Figma: https://www.figma.com/design/RgwEQnB0WfAN7PVfCgDYo5/Hostal-Puente-Hierro?node-id=0-1&t=NnV8UQqhiiE1WeZg-1
-Enlace Prototipo: https://www.figma.com/proto/RgwEQnB0WfAN7PVfCgDYo5/Hostal-Puente-Hierro?node-id=74-126&p=f&viewport=426%2C87%2C0.68&t=AU2VJWGNiPt7kffJ-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=74%3A126&page-id=0%3A1
-Enlace página desplegada:https://daw11jesuitas2026-droid.github.io/HostalPuenteDeHierro/
-Enlace repositorio: https://github.com/daw11jesuitas2026-droid/HostalPuenteDeHierro.git
